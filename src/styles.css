@@ -158,3 +158,22 @@
     color: var(--color-foreground);
   }
 }
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5.5rem;
+  }
+  body {
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@utility bg-gradient-ocean {
+  background-image: var(--gradient-ocean);
+}
+
+@utility bg-gradient-sand {
+  background-image: var(--gradient-sand);
+}
