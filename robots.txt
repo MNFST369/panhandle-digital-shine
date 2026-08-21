@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://marsconsulting.pages.dev/sitemap.xml
